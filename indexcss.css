@@ -1,0 +1,96 @@
+body {
+  background-image: url(Nice\ mountains\ pic.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+  height: 1000px;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  align-content: space-evenly;
+  position: fixed;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+
+.header:hover {
+}
+ 
+
+.d1 {
+  flex: 3;
+  font-size: larger;
+  color: aliceblue;
+  margin-left: 20px;
+  color: black;
+  
+}
+
+.d2 {
+  flex: 1;
+  
+  margin-left: 300px;
+  border-radius: 15px;
+}
+
+.pic1 {
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+
+.d3 {
+  flex: 1;
+  
+  margin-left: 500px;
+  
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  margin-top: 300px;
+  margin-left: 200px;
+}
+
+.name {
+  font-size: 80px;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.search-bar-div {
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 600px;
+  width: 500px;
+  height: 50px;
+}
+
+.search-bar {
+  display: flex;
+  height: 45px;
+  width: 400px;
+  border-radius: 30px;
+  border: transparent whitesmoke;
+  background-color: transparent;
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: bolder;
+
+}
+
+.search-bar::placeholder {
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+  padding: 3px;
+}
